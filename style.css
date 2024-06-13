@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#urlList, #contentList {
+  margin-top: 20px;
+}
+
+.url-item, .content-item {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+.url-item:hover, .content-item:hover {
+  text-decoration: none;
+}
